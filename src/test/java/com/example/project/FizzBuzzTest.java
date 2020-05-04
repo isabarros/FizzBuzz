@@ -4,11 +4,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class ExampleTests {
+class FizzBuzzTests {
 
 	@Test
-	void shouldReturnBarWhenCallingFoo() {
-		Example example = new Example();
-		assertEquals("bar", example.foo());
+	void shouldReturnTrue() {
+		assertEquals(true, true);
 	}
 }
