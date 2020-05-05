@@ -1,10 +1,11 @@
-# JUnit5 Starter Gradle
+# FizzBuzz
 
-The `junit5-jupiter-starter-gradle` project demonstrates how to run tests based on JUnit
-Jupiter using [Gradle's native JUnit Platform support], Gradle's Groovy DSL
-and code and tests written in Java.
-
-[Gradle's native JUnit Platform support]: https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
+## Problema
+Dado um número, o programa deve:
+- Retornar "Fizz" se o número é um múltiplo de 3;
+- Retornar "Buzz" se o número é um múltiplo de 5;
+- Retornar "FizzBuzz" se o número é um múltiplo de ambos;
+- Retornar o número se ele não é múltiplo de nenhum deles;
 
 ## Running the tests
 
