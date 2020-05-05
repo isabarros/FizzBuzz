@@ -4,11 +4,11 @@ public class FizzBuzz {
     public String execute(int number) {
         StringBuilder result = new StringBuilder("");
         
-        if(number % 3 == 0) {
+        if(isMultipleOf3(number)) {
 			result.append("Fizz");
         }
 
-        if(number % 5 == 0) {
+        if(isMultipleOf5(number)) {
             result.append("Buzz");
         }
 
@@ -17,5 +17,13 @@ public class FizzBuzz {
 		}
 
         return result.toString();
+    }
+
+    private boolean isMultipleOf3(int number) {
+        return number % 3 == 0;
+    }
+
+    private boolean isMultipleOf5(int number) {
+        return number % 5 == 0;
     }
 }
